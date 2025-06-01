@@ -20,3 +20,4 @@ phases:
       - echo Writing image definitions file...
       - printf '[{"name":"ecs-demo","imageUri":"%s"}]' $REPO_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
+  files: imagedefinitions.json
